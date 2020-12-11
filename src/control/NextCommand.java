@@ -17,11 +17,11 @@ public class NextCommand implements Command{
     
     @Override
     public void execute() {
-        imageDisplay.show(next());
+        imageDisplay.display(next());
     }
 
     private Image next() {
-        int index = images.indexOf(imageDisplay.image());
+        int index = images.indexOf(imageDisplay.currentImage());
         return images.get((index+1) % images.size());
     }
 

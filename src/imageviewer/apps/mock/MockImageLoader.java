@@ -1,5 +1,5 @@
 
-package imageviewer;
+package imageviewer.apps.mock;
 
 import java.util.ArrayList;
 import java.util.List;

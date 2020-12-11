@@ -1,5 +1,5 @@
 
-package imageviewer;
+package imageviewer.apps.mock;
 
 import control.Command;
 import control.ExitCommand;
@@ -17,7 +17,7 @@ import view.ImageDisplay;
 import view.ImageLoader;
 
 
-public class ImageViewer {
+public class Main {
 
   
     public static void main(String[] args) {

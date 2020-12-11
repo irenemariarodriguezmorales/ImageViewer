@@ -21,7 +21,7 @@ public class InitCommand implements Command{
     public void execute() {
         images.clear();
         images.addAll(imageLoader.load());
-        imageDisplay.show(images.get(0));
+        imageDisplay.display(images.get(0));
     }
         
 
